@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Magazine</title>
+        <meta name="viewport" content="width:Device-width, initial-scale=1.0">
+        <link rel="Stylesheet" href="index.css" type="text/css">
+    
+    </head>
+    <body>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SAMPLE</a></li>
+                    <li><a href="#">LAYOUTS</a></li>
+                    <li><a href="#">TEMPLATES</a></li>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+         </div>
+         <div class="heading">
+            <h1>Magazine Pro</h1>
+            <div>790*90</div>
+         </div>
+        <div class="navlist">
+            <nav>
+                <ul>
+                    <li><a href="#">FASHION</a></li>
+                    <li><a href="#">LIFESTYLE</a></li>
+                    <li><a href="#">POLITICS</a></li>
+                    <li><a href="#">TECHNOLOGY</a></li>
+                    <li><a href="#">TRAVEL</a></li>
+                    <li><h4>get the Magazine Pro Theme</h4></li>
+                </ul>
+                
+            </nav>
+        </div>
+        <div class="content">
+           <div class="main">
+                 <h3>FEATURED ARTICLE</h3>
+                 <img src="magazine.jpg">
+                 <div class="desc">
+                    <h2>Nordstrom Launches Women's Fashion</h2>
+                    <h6>By Brain Gardner -- Leave a comment</h6>
+                    <p>This ia an example of Wordpress post you could edit this to put information
+                         about yourself or your site so  readers know where you are coming from. 
+                         you can create as many posts as you like in order to share with your mind. This is an example
+                        of a Wordpress post, you could edit<span id="dots">... </span><span id="more"> ia an example of Wordpress post you could edit this to put information
+                        about yourself or your site so  readers know where you are coming from. 
+                        you can create as many posts as you like in order to share with your mind. This is an example
+                       of a Wordpress post, you could edit This ia an example of Wordpress post you could edit this to put information
+                       about yourself or your site so  readers know where you are coming from. 
+                       you can create as many posts as you like in order to share with your mind. This is an example
+                      of a Wordpress post, you could edit This ia an example of Wordpress post you could edit this to put information
+                      about yourself or your site so  readers know where you are coming from. 
+                      you can create as many posts as you like in order to share with your mind. This is an example
+                     of a Wordpress post, you could edit</span></p>
+                     <button onclick="myFunction()" id="mybtn"> Continue Reading</button>
+                 </div>
+           </div>
+           <div class="main-left">
+            <div class="newsletter">
+                <h4>EMAIL NEWSLETTER</h4>
+                <p>Sign up to receive email updates daily and hear what's going on with us</p>
+                <input type="text" placeholder="Your Name"><br>
+                <input type="text" placeholder="Your Email Address"><br>
+                <button>SUBSCRIBE</button>
+            </div>
+            <div class="icons">
+                <img src="facebook.png" >
+                <img src="instagram.png">
+                <img src="google.png">
+                <img src="Pinterest.png">
+                <img src="twitter.png">
+                <img src="youtube.png">
+            </div>
+            <div class="notifications">
+                <h3>FASHION</h3>
+                <div class="post">
+                    <img src="magazine.jpg">
+                    <div class="cont">
+                        <h2>Nordstrom Launches Women's Fashion</h2>
+                    <h6>By Brain Gardner -- Leave a comment</h6>
+
+                    </div>
+                    
+                </div>
+                 
+            </div>
+        </div>
+           </div>
+        <script>
+            function myFunction(){
+                var dots = document.getElementById("dots");
+                var more = document.getElementById("more");
+                var mybtn = document.getElementById("mybtn");
+                if( dots.style.display === "none"){
+                    dots.style.display = "inline";
+                    more.style.display="none";
+                    mybtn.innerHTML="Continue Reading";
+                }
+                else{
+                    dots.style.display = "none";
+                    more.style.display="block";
+                    mybtn.innerHTML="Close Reading";
+                
+                }
+                      
+            }
+        </script>
+    </body>
+</html>
